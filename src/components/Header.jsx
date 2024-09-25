@@ -2,7 +2,9 @@ import React from 'react';
 
 function Header() {
     return (
-        <div>Header</div>
+        <div className='flex pb-6'>
+            Header
+        </div>
     )
 }
 

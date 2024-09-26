@@ -1,6 +1,6 @@
 export default [
     {
-        title: 'BlogText',
+        title: 'BlogTexts',
         desc: 'Widget to receive SMS messages from users',
         imgUrl: 'src/assets/fb2.jpg',
         link: 'https://github.com/slashmatti/blog_texts',

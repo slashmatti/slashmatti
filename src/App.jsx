@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
+import About from './components/About';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Projects />
       <Blog />
-      <Contact />
+      <About />
     </div>
   )
 }

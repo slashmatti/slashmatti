@@ -7,7 +7,7 @@ function ProjectItem({ title, desc, imgUrl, link }) {
                 <img
                     src={imgUrl}
                     alt="project"
-                    className='w-full h-36 md:h-48 object-cover cursor-pointer'
+                    className='w-full h-36 md:h-48 object-cover cursor-pointer hover:animate-shaking-img'
                 />
             </a>
             <div className='w-full p-4'>

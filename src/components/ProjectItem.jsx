@@ -10,12 +10,12 @@ function ProjectItem({ title, desc, imgUrl, link }) {
                     className='w-full h-36 md:h-48 object-cover cursor-pointer'
                 />
             </a>
-            <div className='absolute top-0 left-0 right-0 px-4 py-5 bg-gray-800 opacity-70'>
-            </div>
-            <h3 className="absolute top-0 left-0 right-0 px-4 py-2 text-xl text-white font-bold">{title}</h3>
-            <div className='absolute bottom-0 left-0 right-0 px-4 py-5 bg-gray-800 opacity-70'>
-            </div>
-            <p className="absolute bottom-0 left-0 right-0 px-4 py-2 text-sm text-white">{desc}</p>
+            <h3 className="absolute top-0 left-0 right-0 px-1 py-1 text-lg text-white font-bold bg-gray-800/75">
+                {title}
+            </h3>
+            <p className="absolute bottom-0 left-0 right-0 px-1 py-1 text-xs text-white bg-gray-800/75">
+                {desc}
+            </p>
         </div>
     )
 }

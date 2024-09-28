@@ -13,7 +13,7 @@ export default {
         },
       },
       fontFamily: {
-        serif: ["Roboto", "serif"],
+        sans: ["Roboto", "sans"],
       },
       animation: {
         'shaking-img': 'shake 1s linear infinite', 

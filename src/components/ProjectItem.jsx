@@ -7,7 +7,7 @@ function ProjectItem({ title, desc, imgUrl, link }) {
                 <img
                     src={imgUrl}
                     alt="project"
-                    className='w-full h-36 md:h-48 object-cover cursor-pointer'
+                    className='w-72 h-60 object-cover cursor-pointer'
                 />
             </a>
             <h3 className="absolute top-0 left-0 right-0 px-1 py-1 text-lg text-white font-bold bg-gray-800/75">

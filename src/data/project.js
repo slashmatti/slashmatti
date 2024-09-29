@@ -19,4 +19,11 @@ export default [
         imgUrl: 'src/assets/migos-culture-ii.png',
         link: 'https://github.com/slashmatti/founder_digest',
     },
+    
+    {
+        title: 'Stakeholder Update Network',
+        desc: 'Give and get newsletter updates from Founders',
+        imgUrl: 'src/assets/migos-culture-ii.png',
+        link: 'https://github.com/slashmatti/founder_digest',
+    },
 ]

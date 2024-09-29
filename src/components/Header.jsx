@@ -21,6 +21,13 @@ function Header() {
             &nbsp;·&nbsp;
             <a target="_blank" rel="noreferrer" className="text-gray-600 underline" href="https://x.com/slashmatti">Twitter</a>
             </p>
+            <hr className="mt-2"
+                style={{
+                    border: "0",
+                    height: "1px",
+                    backgroundImage: "linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))",
+                }}
+            />
         </div>
     )
 }

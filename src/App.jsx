@@ -8,7 +8,7 @@ import Socials from './components/Socials';
 
 function App() {
   return (
-    <div className="App px-12 py-8 space-y-[10px]">
+    <div className="App px-12 py-8 space-y-2">
       <Header />
       <Socials />
       <About />

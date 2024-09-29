@@ -3,16 +3,16 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import About from './components/About';
-import Socials from './components/Socials';
+import Nav from './components/Nav';
 
 
 function App() {
   return (
     <div className="App px-12 py-8 space-y-2">
       <Header />
-      <Socials />
-      <About />
+      <Nav />
       <Projects />
+      <About />
       <Blog />
     </div>
   )

@@ -4,7 +4,7 @@ function Header() {
     return (
         <div className='relative'>
             <img
-                src="src\assets\wolf1.jpg"
+                src="assets\wolf1.jpg"
                 alt="name"
                 className="inline-block rounded-md h-8 w-8 flex-none text-gray-400 group-data-[focus]:text-white"
                 aria-hidden="true"

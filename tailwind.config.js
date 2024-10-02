@@ -5,18 +5,15 @@ export default {
     extend: {
       keyframes: {
         shake: {
-          '0%': { transform: 'rotate(0.0deg)' },
-          '25%': { transform: 'rotate(-2.0deg)' },
-          '50%': { transform: 'rotate(0.0deg)' },
-          '75%': { transform: 'rotate(2.0deg)' },
-          '100%': { transform: 'rotate(0.0deg)' },
+          '0%, 100%': { transform: 'rotate(-2deg)' },
+          '50%': { transform: 'rotate(2deg)' },
         },
       },
       fontFamily: {
         sans: ["Roboto", "sans"],
       },
       animation: {
-        'shaking-img': 'shake 1s linear infinite', 
+        'shaking-img': 'shake 1s ease-in-out infinite', 
       },
     },
   },

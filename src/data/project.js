@@ -42,7 +42,7 @@ export default [
     },
 
     {
-        title: 'Weigh Lifting Correctly',
+        title: 'Weight Lifting Correctly',
         desc: 'Predictive model that classifies in what manner a bicep curl was performed',
         imgUrl: 'assets/pml1.png',
         link: 'https://slashmatti.github.io/PML-Project/',

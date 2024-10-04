@@ -21,7 +21,7 @@ function Header() {
             &nbsp;·&nbsp;
             <a target="_blank" rel="noreferrer" className="text-gray-600 underline hover:text-green-900" href="https://x.com/slashmatti">Twitter</a>
             </p>
-            <hr className="mt-2"
+            <hr className="mt-3"
                 style={{
                     border: "0",
                     height: "1px",

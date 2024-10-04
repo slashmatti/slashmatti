@@ -8,7 +8,7 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="App px-12 py-8 space-y-4 container max-w-fit mx-auto">
+    <div className="App px-12 py-8 space-y-3 container max-w-7xl mx-auto">
       <Header />
       <Nav />
       <Projects />

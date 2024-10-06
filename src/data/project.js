@@ -47,4 +47,11 @@ export default [
         imgUrl: 'assets/pml1.png',
         link: 'https://slashmatti.github.io/PML-Project/',
     },
+
+    {
+        title: 'Tornados Are The Worst',
+        desc: 'Exploring the NOAA Storm Events database to find what is most harmful in the US',
+        imgUrl: 'assets/storm.png',
+        link: 'https://github.com/slashmatti/RepData_PeerAssessment2/',
+    },
 ]

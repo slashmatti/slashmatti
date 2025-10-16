@@ -21,6 +21,13 @@ export default [
     },
     
     {
+        title: 'A Sensor Webapp',
+        desc: 'Manage sensors, upload data and view plots of their readings',
+        imgUrl: 'assets/sensor.png',
+        link: 'https://github.com/slashmatti/fsninja',
+    },
+    
+    {
         title: 'Car Data Visualized',
         desc: 'Shiny app that produces boxplots of the Auto dataset',
         imgUrl: 'assets/ddp1.png',
@@ -42,7 +49,7 @@ export default [
     },
 
     {
-        title: 'Weight Lifting Correctly',
+        title: 'Weightlifting Correctly',
         desc: 'Predictive model that classifies in what manner a bicep curl was performed',
         imgUrl: 'assets/pml1.png',
         link: 'https://slashmatti.github.io/PML-Project/',
